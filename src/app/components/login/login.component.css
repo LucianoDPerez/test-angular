@@ -1,0 +1,129 @@
+.login {
+  margin-top: 3rem;
+}
+.login-form {
+  width: 60%;
+  height: 75vh;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 1%;
+  background-color: white;
+}
+
+.login-logo img {
+  width: 40%;
+  height: 40%;
+  border-radius: 50%;  
+}
+
+.title {
+  margin-top: 5rem;
+}
+
+.form-group   {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.btn-submit {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  width: 90%;
+}
+
+@media (max-width: 767px) { /* Mobile */
+  .login {
+    margin-top: 1rem;
+  }
+
+  .login-form {
+    width: 90%;
+    height: auto;
+    padding: 0.5rem;
+    border-radius: 0;
+  }
+
+  .login-logo img {
+    width: 60%;
+    height: 60%;
+  }
+
+  .title {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .form-group {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .btn-submit {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) { /* Tablets */
+  .login-form {
+    width: 70%;
+    height: 70vh;
+    padding: 0.75rem;
+    border-radius: 0.5%;
+  }
+
+  .login-logo img {
+    width: 50%;
+    height: 50%;
+  }
+
+  .title {
+    margin-top: 3rem;
+    font-size: 1.75rem;
+  }
+
+  .form-group {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .btn-submit {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    width: 95%;
+  }
+}
+
+@media (min-width: 992px) { /* Escritorio */
+  .login-form {
+    width: 60%;
+    height: 75vh;
+    padding: 1rem;
+    border-radius: 1%;
+  }
+
+  .login-logo img {
+    width: 40%;
+    height: 40%;
+  }
+
+  .title {
+    margin-top: 5rem;
+    font-size: 2rem;
+  }
+
+  .form-group {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .btn-submit {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 90%;
+  }
+}
+

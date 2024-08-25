@@ -1,0 +1,140 @@
+.custom-select{
+    height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+
+.page {
+    margin-top: 5rem;
+}
+
+.title {
+    margin-bottom: 5rem;
+}
+
+.list-container { 
+    border: 1px solid #ddd;
+    border-radius: 5%;
+}
+
+.mat-table-light {
+    background-color: #fff; 
+    color: rgba(0, 0, 0, 0.87); 
+}
+
+.mat-table-light .mat-mdc-header-cell {
+    color: black !important;
+}
+
+.mat-table-light .mat-mdc-cell {
+    color: black !important; 
+}
+
+.mat-table-light td.mat-cell,
+.mat-table-light td.mat-footer-cell {
+    border-bottom-color: rgba(0, 0, 0, 0.12); 
+    color: black; 
+}
+
+  
+.rounded-20 {
+    border-radius: 20px;
+}
+
+.filters {
+    width: 50%;
+    border: 1px solid #ddd;
+    border-radius: 5%;
+    margin-left: .1rem;
+}
+
+.custom-p {
+    margin-left: 1rem;
+    margin-right: .5rem;
+}
+  
+.modal-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.modal-title {
+    font-size: 1rem;    
+}
+
+.product-details img {
+    display: block;
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 1rem;     
+    margin-left: auto; 
+    margin-right: auto;    
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: space-between; 
+}
+
+  @media (max-width: 767px) { /* Mobile */
+    .list-container {
+      border-radius: 0;
+    }
+  
+    .mat-table-light .mat-mdc-header-cell,
+    .mat-table-light .mat-mdc-cell {
+      font-size: 0.8rem;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) { /* Tablets */
+    .list-container {
+      border-radius: 3%;
+    }
+  }
+  
+  @media (min-width: 992px) { /* Desktop */
+    .list-container {
+      border-radius: 5%;
+    }
+  }
+
+  @media (max-width: 767px) { /* Mobile */
+    .filters {
+      width: 100%;
+      border-radius: 0;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) { /* Tablets */
+    .filters {
+      width: 60%;
+      border-radius: 3%;
+    }
+  }
+  
+  @media (min-width: 992px) { /* Desktop */
+    .filters {
+      width: 50%;
+      border-radius: 5%;
+    }
+  }
+
+  @media (max-width: 767px) { /* Mobile */
+    .product-details img {
+      max-width: 80%;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) { /* Tablets */
+    .product-details img {
+      max-width: 60%;
+    }
+  }
+  
+  @media (min-width: 992px) { /* Desktop */
+    .product-details img {
+      max-width: 50%;
+    }
+  }
+  
